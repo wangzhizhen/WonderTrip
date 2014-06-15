@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WonderTrip</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string-array name="genderSelector">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_home_content">HomeContentActivity</string>
+    <string name="title_activity_recommend">RecommendActivity</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+    <string name="title_activity_search_input">SearchInputActivity</string>
+    <string name="title_activity_search_nearby">SearchNearbyActivity</string>
+    <string name="title_activity_search_order">SearchOrderActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_user_history_map">UserHistoryMapActivity</string>
+    <string name="title_activity_user_history_list">UserHistoryListActivity</string>
+    <string name="title_activity_user_wangting">UserWangtingActivity</string>
+    <string name="title_activity_postcard_mine">PostcardMineActivity</string>
+    <string name="title_activity_postcard_content">PostcardContentActivity</string>
+    <string name="title_activity_postcard_made">PostcardMadeActivity</string>
+    <string name="title_activity_postcard_hot">PostcardHotActivity</string>
+
+</resources>

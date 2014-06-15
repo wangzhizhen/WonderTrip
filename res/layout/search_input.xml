@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SearchInputActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/type_sight_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F2F2F2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/search_sight" />
+
+        <ImageButton
+            android:id="@+id/type_traffic_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F2F2F2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/search_traffic" />
+
+        <ImageButton
+            android:id="@+id/type_hotel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F2F2F2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/search_hotel" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/input_for_sight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:visibility="visible" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="关键字" />
+
+            <EditText
+                android:id="@+id/search_sight_input_keyword"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="key word" />
+
+            <ImageButton
+                android:id="@+id/search_sight_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F2F2F2"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/search_button_icon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="目的地" />
+
+            <EditText
+                android:id="@+id/search_sight_input_destination"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="destination" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/input_for_traffic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="出发地" />
+
+            <EditText
+                android:id="@+id/search_traffic_input_start"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="starting point" />
+
+            <ImageButton
+                android:id="@+id/search_traffic_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F2F2F2"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/search_button_icon" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="目的地" />
+
+            <EditText
+                android:id="@+id/search_traffic_input_destination"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="destination" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="出发日期" />
+
+            <EditText
+                android:id="@+id/search_traffic_input_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="setting off date"
+                android:inputType="datetime" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/input_for_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:visibility="gone" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="入住城市" />
+
+            <EditText
+                android:id="@+id/search_hotel_input_city"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="the city " />
+
+            <ImageButton
+                android:id="@+id/search_hotel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F2F2F2"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/search_button_icon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="入住日期" />
+
+            <EditText
+                android:id="@+id/search_hotel_input_come_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="coming date "
+                android:inputType="datetime" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="离开日期" />
+
+            <EditText
+                android:id="@+id/search_hotel_input_leaving_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="datetime"
+                android:hint="leaving date " />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="酒店名称" />
+
+            <EditText
+                android:id="@+id/search_hotel_input_hotel_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="the name of the hotel " />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
