@@ -12,13 +12,13 @@ public class RecommendActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.recommend_page);
+		setContentView(R.layout.recommend);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.home_page, menu);
+		getMenuInflater().inflate(R.menu.recommend, menu);
 		return true;
 	}
 

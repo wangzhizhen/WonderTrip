@@ -5,20 +5,20 @@ import android.app.Activity;
 import android.view.Menu;
 
 /**
- * page for PPT 31
+ * page for PPT 29
  * */
-public class PostcardMadeActivity extends Activity {
+public class PostcardMineActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.postcard_made);
+		setContentView(R.layout.postcard_mine);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.postcard_made, menu);
+		getMenuInflater().inflate(R.menu.postcard_mine, menu);
 		return true;
 	}
 

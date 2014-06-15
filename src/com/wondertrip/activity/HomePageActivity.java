@@ -14,7 +14,7 @@ public class HomePageActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.home_page);
+		setContentView(R.layout.homepage);
 //		TestForJena jena = new TestForJena();
 //		jena.tryJena();
 	}
