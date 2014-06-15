@@ -95,45 +95,22 @@ public final class R {
         public static final int username_new=0x7f0a0009;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int home_content=0x7f030001;
-        public static final int homepage=0x7f030002;
-        public static final int login=0x7f030003;
-        public static final int postcard_content=0x7f030004;
-        public static final int postcard_hot=0x7f030005;
-        public static final int postcard_made=0x7f030006;
-        public static final int postcard_mine=0x7f030007;
-        public static final int product_details=0x7f030008;
-        public static final int progressdialog=0x7f030009;
-        public static final int recommend=0x7f03000a;
-        public static final int register=0x7f03000b;
-        public static final int search_input=0x7f03000c;
-        public static final int search_nearby=0x7f03000d;
-        public static final int search_order=0x7f03000e;
-        public static final int user_history_list=0x7f03000f;
-        public static final int user_history_map=0x7f030010;
-        public static final int user_info=0x7f030011;
-        public static final int user_wangting=0x7f030012;
+        public static final int home_content=0x7f030000;
+        public static final int home_page=0x7f030001;
+        public static final int login=0x7f030002;
+        public static final int postcard_content=0x7f030003;
+        public static final int postcard_made=0x7f030004;
+        public static final int postcard_page=0x7f030005;
+        public static final int product_details=0x7f030006;
+        public static final int progressdialog=0x7f030007;
+        public static final int recommend_page=0x7f030008;
+        public static final int register=0x7f030009;
+        public static final int search_page=0x7f03000a;
+        public static final int user_history_list=0x7f03000b;
+        public static final int user_page=0x7f03000c;
     }
     public static final class menu {
-        public static final int home_content=0x7f090000;
-        public static final int home_page=0x7f090001;
-        public static final int login=0x7f090002;
-        public static final int main=0x7f090003;
-        public static final int postcard_content=0x7f090004;
-        public static final int postcard_hot=0x7f090005;
-        public static final int postcard_made=0x7f090006;
-        public static final int postcard_mine=0x7f090007;
-        public static final int product_details=0x7f090008;
-        public static final int recommend=0x7f090009;
-        public static final int register=0x7f09000a;
-        public static final int search_input=0x7f09000b;
-        public static final int search_nearby=0x7f09000c;
-        public static final int search_order=0x7f09000d;
-        public static final int user_history_list=0x7f09000e;
-        public static final int user_history_map=0x7f09000f;
-        public static final int user_info=0x7f090010;
-        public static final int user_wangting=0x7f090011;
+        public static final int home_page=0x7f090000;
     }
     public static final class string {
         public static final int action_settings=0x7f070001;

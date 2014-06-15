@@ -9,9 +9,9 @@ import android.widget.ImageButton;
 import android.widget.TableLayout;
 
 /**
- * page for PPT 18 -20
+ * page for PPT 18 -20 22 23 
  * */
-public class SearchInputActivity extends Activity {
+public class SearchActivity extends Activity {
 	private ImageButton sightImageButton;
 	private ImageButton trafficImageButton;
 	private ImageButton hotelImageButton;
@@ -22,7 +22,7 @@ public class SearchInputActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.search_input);
+		setContentView(R.layout.search_page);
 		initWidget();
 
 	}
@@ -30,7 +30,7 @@ public class SearchInputActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.search_input, menu);
+		getMenuInflater().inflate(R.menu.home_page, menu);
 		return true;
 	}
 
